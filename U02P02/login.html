@@ -7,8 +7,22 @@
         <title>Formulario</title>
     </head>
     <body>
-        <h1> Formulario</h1>
-        <p> Este formulario es para registrarse en una nuestra pagia WEB</p>
+        <h1> Formulario de registro </h1>
+        <p> Debe llenar este formulario de regristro para poder crear y almacenar sus datos en esta pagina web</p>
+
+        <form action="/accion.php" method="post" target="_blank">
+            <label for="Nombre de usuario "> Nombre de usuario: </label>
+            <input type="text" id="nombre de usuario" name="nombre de usuario" />
+
+            <label for="password"> password: </label>
+            <input type="password" id="password" name="password"  />
+            
+            <label for="cheeckbox"> Cehck </label>
+            <input type="checkbox" name="checkA" id="checkA" />
+
+            <input type="submit" value="sumbit" />
+
+        </form>
         
     </body>
 </html>
