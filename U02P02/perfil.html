@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head style="background-color: rgb(255, 192, 203)">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario De Datos personales</title>
+</head>
+<body style="background-color: rgb(255, 192, 203)">
+    <h1>Formulario Personal</h1>
+    
+    <p>Formulario de inscripcion de datos personales para quedar registrado en esta pagina web</p>
+    
+    <fieldset>
+        <legend> <b> <strong> Informacion personal </b> </strong> </legend>
+        <input type="text" name="estudiante" id="estudiante" placeholder="ESTUDIANTE" readonly autocomplete>
+
+        <br><br>
+
+        <label title="Nombre completo"> Nombre Completo: </label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese nombre completo">
+
+        <br><br>
+
+        <label title="Email"> Email: </label>
+        <input type="text" name="Email" id="Email" placeholder="Ingrese email">
+
+        <br><br>
+
+        <label title="Edad"> Edad </label>
+        <input type="date" name="edad" id="edad">
+
+        <br><br>
+
+        <label title="Nacionalidad"> Nacionalidad: </label>
+        <select name="nacionalidades" id="nacionalidades">
+            <option value="Argentina"> Argentina </option>
+            <option value="Brasilera"> Brasilera </option>
+            <option value="Uruguaya"> Uruguaya </option>
+            <option value="Otro"> Otro </option>
+        </select>
+
+        <br><br>
+
+        <label title="Condicion Laboral"> Condicion Laboral: </label>
+        <select name="Laboral" id="Laboral">
+            <option value="Desempleado"> Desempleado </option>
+            <option value="En búsqueda laboral"> En búsqueda laboral </option>
+            <option value="Trabajo part time">  Trabajo part time </option>
+            <option value="Trabajo full time"> Trabajo full time </option>
+        </select>
+
+        <br><br>
+    </fieldset>
+    <fieldset>
+
+        <legend> <b> <strong> Gustos personales </b> </strong> </legend>
+        <label title="Gusto Musicales"> Gusto Musicales</label>
+        <input type="text" name="Musica" id="Musica" placeholder="Gustos musicales">
+
+        <br><br>
+
+        <label title="Comidas preferidas"> Comidas Preferidas: </label>
+        <select name="comidas" id="comidas">
+            <option value="Hamburguesas"> Hamburguesas </option>
+            <option value="Empanadas"> Empanadas </option>
+            <option value="Pizza"> Pizza </option>
+            <option value="Otro"> Otro </option>
+        </select>
+
+        <br><br>
+    </fieldset>
+        <label for="Checkbox"> checkbox </label>
+        <input type="checkbox" name="Cheeckbox" id="Cheeckbox">
+
+        <br>
+        <input type="submit" value="Enviar">
+</body>
+</html>
